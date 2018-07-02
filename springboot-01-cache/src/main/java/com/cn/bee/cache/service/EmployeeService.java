@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by mervin on 2018/6/25.
  */
-@CacheConfig(cacheNames="emp") //抽取缓存的公共配置
+@CacheConfig(cacheNames="emp",cacheManager = "employeeCacheManager") //抽取缓存的公共配置
 @Service
 public class EmployeeService
 {
