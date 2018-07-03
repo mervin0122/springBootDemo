@@ -47,7 +47,7 @@ public class Springboot01CacheApplicationTests {
 	//测试保存对象
 	@Test
 	public  void test02(){
-		Employee empByid=empolyeeMapper.getEmpById(1);
+		//Employee empByid=empolyeeMapper.getEmpById(1);
 		//默认如果保存对象，使用jdk系列化机制，序列化后的数据保存在redis中
 		//redisTemplate.opsForValue().set("emp-01",empByid);
 		//1.将数据以json的方式保存
