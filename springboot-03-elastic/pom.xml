@@ -24,13 +24,12 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-	
 	<dependencies>
 		<!--SpirngBoot默认使用SpringData Elasticsearch模块进行操作-->
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-		</dependency>-->
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.searchbox/jest -->
 		<dependency>
 			<groupId>io.searchbox</groupId>
